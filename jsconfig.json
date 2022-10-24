@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@assets": ["src/assets/index.js"],
+      "@components/*": ["src/components/*"],
+      "@components": ["src/components/index.js"],
+      "@config/*": ["src/config/*"],
+      "@config": ["src/config/index.js"],
+      "@constants/*": ["src/constants/*"],
+      "@constants": ["src/constants/index.js"],
+      "@containers/*": ["src/containers/*"],
+      "@containers": ["src/containers/index.js"],
+      "@contexts/*": ["src/contexts/*"],
+      "@contexts": ["src/contexts/index.js"],
+      "@hooks/*": ["src/hooks/*"],
+      "@hooks": ["src/hooks/index.js"],
+      "@locale/*": ["src/locale/*"],
+      "@locale": ["src/locale/index.js"],
+      "@navigators/*": ["src/navigators/*"],
+      "@navigators": ["src/navigators/index.js"],
+      "@services/*": ["src/services/*"],
+      "@services": ["src/services/index.js"],
+      "@store/*": ["src/store/*"],
+      "@store": ["src/store/index.js"],
+      "@styles/*": ["src/styles/*"],
+      "@styles": ["src/styles/index.js"],
+      "@utils/*": ["src/utils/*"],
+      "@utils": ["src/utils/index.js"],
+      "@root/*": ["src/*"],
+      "@root": ["src/index.js"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

@@ -1,4 +1,4 @@
-package com.rnquickstart.newarchitecture;
+package com.iampikai.rnquickstart.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.rnquickstart.BuildConfig;
-import com.rnquickstart.newarchitecture.components.MainComponentsRegistry;
-import com.rnquickstart.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.iampikai.rnquickstart.BuildConfig;
+import com.iampikai.rnquickstart.newarchitecture.components.MainComponentsRegistry;
+import com.iampikai.rnquickstart.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

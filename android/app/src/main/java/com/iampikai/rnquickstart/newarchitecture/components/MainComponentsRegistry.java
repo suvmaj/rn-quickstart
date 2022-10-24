@@ -1,4 +1,4 @@
-package com.rnquickstart.newarchitecture.components;
+package com.iampikai.rnquickstart.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

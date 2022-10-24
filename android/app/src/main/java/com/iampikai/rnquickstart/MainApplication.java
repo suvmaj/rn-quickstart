@@ -1,4 +1,4 @@
-package com.rnquickstart;
+package com.iampikai.rnquickstart;
 
 import android.app.Application;
 import android.content.Context;
@@ -9,7 +9,8 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.config.ReactFeatureFlags;
 import com.facebook.soloader.SoLoader;
-import com.rnquickstart.newarchitecture.MainApplicationReactNativeHost;
+import com.iampikai.rnquickstart.newarchitecture.MainApplicationReactNativeHost;
+
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 

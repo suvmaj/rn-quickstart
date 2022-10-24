@@ -1,4 +1,4 @@
-package com.rnquickstart.newarchitecture.modules;
+package com.iampikai.rnquickstart.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;
