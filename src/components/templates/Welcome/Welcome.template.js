@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {ScaledSheet} from 'react-native-size-matters';
 
 const Link = props => {
   return (
@@ -38,7 +39,7 @@ const WelcomeTemplate = () => {
   );
 };
 
-const styles = StyleSheet.create({
+const styles = ScaledSheet.create({
   app: {
     display: 'flex',
     flex: 1,
@@ -52,16 +53,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   header: {
-    padding: 16,
+    padding: '16@ms',
   },
   title: {
-    fontSize: 32,
+    fontSize: '32@ms',
     fontWeight: 'bold',
     color: 'white',
   },
   text: {
     textAlign: 'center',
-    paddingVertical: 16,
+    paddingVertical: '16@ms',
     color: 'white',
   },
   link: {
